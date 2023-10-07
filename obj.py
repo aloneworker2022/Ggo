@@ -8,7 +8,7 @@ class OBJ:
 
     def getname(self):
         return name
-
+    
 class FOOD(OBJ):
     def __init__(self):
         super().__init__('food')
